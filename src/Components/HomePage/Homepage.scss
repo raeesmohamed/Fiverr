@@ -1,0 +1,25 @@
+.homepage-main{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    z-index: 2;
+    justify-content: flex-end;
+    // position: relative;
+    // position: fixed;
+    height: 680px;
+    .container{
+        width: 97.5%;
+        display: flex;
+        justify-content: center;
+        .homepage-left{
+            width: 50%;
+            background-color: teal;
+        }
+        .homepage-right{
+            width: 50%;
+            background-color: green;
+            // align-self: flex-end;
+        }        
+    }
+
+}

@@ -1,0 +1,56 @@
+$title-position:flex-start;
+
+.modalComponent{
+    display: flex;
+    .left-modal{
+        width: 50%;
+        background-image: url(../../../../public/Images/left-modal-image.png);
+        background-size: cover;
+    }
+    .right-modal{
+        display: flex;
+        justify-content: center;
+        #right-modal-container{
+
+        }
+    }
+}
+
+.modal-main-flex-start{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    // background-color: red;
+    .modal-title{
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+}
+.modal-main-flex-center{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    .modal-title{
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 30px;
+        color:"red"
+    }
+
+
+}
+.modal-main-flex-end{
+    display: flex;
+    justify-content: flex-end;
+    #modal-title{
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 30px;
+        color:"red"
+    }
+}
+
+// @extend .navbar
